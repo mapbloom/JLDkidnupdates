@@ -1,0 +1,15 @@
+Package: JLDkidnupdates
+Title: Interactive Daily Health Update Tracker
+Version: 0.0.1
+Authors@R: 
+    person("Mikaela", "Bloomberg", email = "mapbloomberg@gmail.com", role = c("aut", "cre"))
+Description: Provides an interactive function for recording daily health updates,
+    saving them to an RDS file, and producing simple plots of recorded trends.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    data.table,
+    RColorBrewer,
+    png
+Config/roxygen2/version: 8.0.0
